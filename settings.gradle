@@ -1,0 +1,12 @@
+include ':app', ':openlibrary', ':projectlibrary', ':coremodel', ':common', ':appinit', ':ModuleHome', ':ModuleSplash', ':ModuleBase', ':widgets'
+
+project(':ModuleSplash').projectDir = new File('modules/ModuleSplash')
+project(':ModuleHome').projectDir = new File('modules/ModuleHome')
+project(':ModuleBase').projectDir = new File('modules/ModuleBase')
+
+project(':openlibrary').projectDir = new File('library/openlibrary')
+project(':projectlibrary').projectDir = new File('library/projectlibrary')
+
+project(':common').projectDir = new File('components/common')
+project(':appinit').projectDir = new File('components/appinit')
+project(':coremodel').projectDir = new File('components/coremodel')

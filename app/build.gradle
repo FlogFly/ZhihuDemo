@@ -1,0 +1,50 @@
+apply plugin: 'com.android.application'
+
+android {
+    signingConfigs {
+        demo {
+            keyAlias 'ChintH5'
+            keyPassword '147258369'
+            storeFile file('C:/Users/dyping/Desktop/ChintH5.keystore')
+            storePassword '147258369'
+        }
+
+    }
+    compileSdkVersion 26
+    defaultConfig {
+        applicationId "com.chint.donation.chintframework"
+        minSdkVersion 17
+        targetSdkVersion 26
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+        javaCompileOptions {
+            annotationProcessorOptions {
+                arguments = [moduleName: project.getName()]
+            }
+        }
+
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.demo
+        }
+        debug {
+            signingConfig signingConfigs.demo
+
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+
+   // implementation project(':ModuleHome')
+    implementation project(':ModuleSplash')
+    compile rootProject.ext.dependencies["arouter-api"]
+  
+    annotationProcessor rootProject.ext.dependencies["arouter-compiler"]
+}

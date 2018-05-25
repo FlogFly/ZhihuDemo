@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="LOCAL" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleHome" value="D:/.gradle/wrapper/dists/gradle-4.1-all/bzyivzo6n839fup2jbap0tjew/gradle-4.1" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/components/appinit" />
+            <option value="$PROJECT_DIR$/components/common" />
+            <option value="$PROJECT_DIR$/components/coremodel" />
+            <option value="$PROJECT_DIR$/library/openlibrary" />
+            <option value="$PROJECT_DIR$/library/projectlibrary" />
+            <option value="$PROJECT_DIR$/modules/ModuleBase" />
+            <option value="$PROJECT_DIR$/modules/ModuleHome" />
+            <option value="$PROJECT_DIR$/modules/ModuleSplash" />
+            <option value="$PROJECT_DIR$/widgets" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

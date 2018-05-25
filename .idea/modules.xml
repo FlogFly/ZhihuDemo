@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/DoubanDemo.iml" filepath="$PROJECT_DIR$/DoubanDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modules/ModuleBase/ModuleBase.iml" filepath="$PROJECT_DIR$/modules/ModuleBase/ModuleBase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modules/ModuleHome/ModuleHome.iml" filepath="$PROJECT_DIR$/modules/ModuleHome/ModuleHome.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modules/ModuleSplash/ModuleSplash.iml" filepath="$PROJECT_DIR$/modules/ModuleSplash/ModuleSplash.iml" />
+      <module fileurl="file://E:\AndroidProject\DoubanDemo\ModuleHome\Module_Home.iml" filepath="E:\AndroidProject\DoubanDemo\ModuleHome\Module_Home.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/components/appinit/appinit.iml" filepath="$PROJECT_DIR$/components/appinit/appinit.iml" />
+      <module fileurl="file://E:\AndroidProject\ChintFramework\companylibrary\baselibrary.iml" filepath="E:\AndroidProject\ChintFramework\companylibrary\baselibrary.iml" />
+      <module fileurl="file://E:\AndroidProject\DoubanDemo\ModuleBase\basemodule.iml" filepath="E:\AndroidProject\DoubanDemo\ModuleBase\basemodule.iml" />
+      <module fileurl="file://$PROJECT_DIR$/components/common/common.iml" filepath="$PROJECT_DIR$/components/common/common.iml" />
+      <module fileurl="file://E:\AndroidProject\ChintFramework\common\commonbusiness.iml" filepath="E:\AndroidProject\ChintFramework\common\commonbusiness.iml" />
+      <module fileurl="file://E:\AndroidProject\ChintFramework\projectlibrary\companylibrary.iml" filepath="E:\AndroidProject\ChintFramework\projectlibrary\companylibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/components/coremodel/coremodel.iml" filepath="$PROJECT_DIR$/components/coremodel/coremodel.iml" />
+      <module fileurl="file://E:\AndroidProject\ChintFramework\totalmodel\coremodel.iml" filepath="E:\AndroidProject\ChintFramework\totalmodel\coremodel.iml" />
+      <module fileurl="file://E:\AndroidProject\DoubanDemo\Module_Home\homemodule.iml" filepath="E:\AndroidProject\DoubanDemo\Module_Home\homemodule.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library/openlibrary/openlibrary.iml" filepath="$PROJECT_DIR$/library/openlibrary/openlibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library/projectlibrary/projectlibrary.iml" filepath="$PROJECT_DIR$/library/projectlibrary/projectlibrary.iml" />
+      <module fileurl="file://E:\AndroidProject\DoubanDemo\coremodel\totalmodel.iml" filepath="E:\AndroidProject\DoubanDemo\coremodel\totalmodel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/widgets/widgets.iml" filepath="$PROJECT_DIR$/widgets/widgets.iml" />
+    </modules>
+  </component>
+</project>

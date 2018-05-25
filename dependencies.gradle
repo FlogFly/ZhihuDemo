@@ -1,0 +1,81 @@
+def supportVersion = "26.1.0"
+def butterKnifeVersion = "8.6.0"
+def retrofitVersion = "2.2.0"
+def loggingInterceptorVersion = "3.7.0"
+def loggerVersion = "1.15"
+def rxBindingVersion = "2.0.0"
+def rxjava2Version = "2.1.0"
+def rxandroidVersion = "2.0.1"
+def rxpermissionVersion = "0.9.3@aar"
+def ormliteVersion = "5.0"
+def smartLayoutVersion = "1.0.3"
+def aliARouterVersion = "1.3.1"
+def aliARouterCompileVersion = "1.1.4"
+def constraintlayoutVersion = "1.0.2"
+
+project.ext {
+    android = [
+            compileSdkVersion: 26,
+            buildToolsVersion: "25.0.2",
+            applicationId    : "com.baronzhang.android.modularization",
+            minSdkVersion    : 15,
+            targetSdkVersion : 26,
+            versionCode      : 1,
+            versionName      : "1.0"
+    ]
+
+    dependencies = [
+
+            //test
+            "junit"                       : "junit:junit:4.12",
+
+            //android-support
+            "support-v4"                  : "com.android.support:support-v4:${supportVersion}",
+            "appcompat-v7"                : "com.android.support:appcompat-v7:${supportVersion}",
+            "design"                      : "com.android.support:design:${supportVersion}",
+            "recyclerview-v7"                : "com.android.support:recyclerview-v7:${supportVersion}",
+            "cardview-v7"                    : "com.android.support:cardview-v7:${supportVersion}",
+            "constraint-layout"           : "com.android.support.constraint:constraint-layout:1.0.2",
+
+
+            //rx
+            "rxjava"                     :"io.reactivex.rxjava2:rxjava:${rxjava2Version}",
+            "rxandroid"                   : "io.reactivex.rxjava2:rxandroid:${rxandroidVersion}",
+            "rxbinding"                   : "com.jakewharton.rxbinding2:rxbinding:${rxBindingVersion}",
+         /*   "rxbinding-support-v4"        : "com.jakewharton.rxbinding:rxbinding-support-v4:${rxBindingVersion}",
+            "rxbinding-appcompat-v7"      : "com.jakewharton.rxbinding:rxbinding-appcompat-v7:${rxBindingVersion}",
+            "rxbinding-design"            : "com.jakewharton.rxbinding:rxbinding-design:${rxBindingVersion}",
+            "rxbinding-recyclerview-v7"   : "com.jakewharton.rxbinding:rxbinding-recyclerview-v7:${rxBindingVersion}",*/
+            "rxpermission"                  : "com.tbruyelle.rxpermissions2:rxpermissions:${rxpermissionVersion}",
+
+
+
+            //retrofit && okhttp
+            "retrofit"                    : "com.squareup.retrofit2:retrofit:${retrofitVersion}",
+            "adapter-rxjava"              : "com.squareup.retrofit2:adapter-rxjava2:${retrofitVersion}",
+            "converter-gson"               : "com.squareup.retrofit2:converter-gson:${retrofitVersion}",
+            "okhttp3-logging-interceptor" : "com.squareup.okhttp3:logging-interceptor:${loggingInterceptorVersion}",
+
+            //butterKnife
+            "butterknife"                 : "com.jakewharton:butterknife:${butterKnifeVersion}",
+            "butterknife-compiler"        : "com.jakewharton:butterknife-compiler:${butterKnifeVersion}",
+
+            //logger
+            "logger"                       : "com.orhanobut:logger:${loggerVersion}",
+
+
+            //ormlite
+            "ormlite-android"             : "com.j256.ormlite:ormlite-android:${ormliteVersion}",
+            "fastjson"                    : "com.alibaba:fastjson:1.2.31",
+
+            //smart
+            "smartlayout"                   : "com.scwang.smartrefresh:SmartRefreshLayout:${smartLayoutVersion}",
+
+            //ali ARouter
+            "arouter-api"                    : "com.alibaba:arouter-api:${aliARouterVersion}",
+            "arouter-compiler"               : "com.alibaba:arouter-compiler:${aliARouterCompileVersion}",
+
+            "constraint-layout"             : "com.android.support.constraint:constraint-layout:${constraintlayoutVersion}",
+
+    ]
+}

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rootLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:background="#FFFFFF"
+    android:gravity="center_vertical"
+    >
+
+    <TextView
+        android:id="@+id/tv_lefttext"
+        android:layout_width="85dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="6dp"
+        android:gravity="center_vertical"
+        android:padding="10dp"
+        android:textSize="15sp"
+        tools:text="标题标题" />
+
+    <EditText
+        android:id="@+id/et_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toLeftOf="@+id/iv_righticon"
+        android:layout_toRightOf="@id/tv_lefttext"
+        android:background="@null"
+        android:focusable="false"
+        android:gravity="center_vertical"
+        android:padding="10dp"
+        android:textColor="#222"
+        android:textColorHint="#666"
+        android:textSize="15sp"
+        tools:text="内容"
+        />
+
+
+    <ImageView
+        android:id="@+id/iv_righticon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center"
+        android:layout_marginRight="6dp"
+        android:src="@drawable/righticon" />
+
+    <View
+        android:id="@+id/underline"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_alignParentBottom="true"
+        android:background="#99999999" />
+</RelativeLayout>
